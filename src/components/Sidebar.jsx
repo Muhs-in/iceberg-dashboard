@@ -35,10 +35,10 @@ const Sidebar = () => {
     <div className="w-[280px] bg-white text-gray-800 border-r border-gray-200 h-screen">
       <div className="flex justify-between items-center py-3 px-4">
         <h2 className="text-xl font-bold text-[#6d63d4]">Logo</h2>
-        <HiOutlineChevronLeft className="text-xl text-gray-400 cursor-pointer" />
+        {/* <HiOutlineChevronLeft className="text-xl text-gray-400 cursor-pointer" /> */}
       </div>
 
-      <hr className="border-gray-200" />
+      {/* <hr className="border-gray-200" /> */}
 
       {navSections.map((section, sectionIndex) => (
         <div key={sectionIndex} className="py-2 px-4">
